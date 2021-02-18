@@ -35,3 +35,4 @@ print(reset +"\nMD5  : " + green
 + reset +"\nSHA56  : " + blue
 + hashobj5.hexdigest()
 )
+print("")
