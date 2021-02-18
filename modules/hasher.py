@@ -24,7 +24,7 @@ hashobj4.update(hashvalue.encode())
 hashobj5 = hashlib.sha512()
 hashobj5.update(hashvalue.encode())
 
-print(reset +"\nMD5  : " + green
+print(reset +"\nMD5    : " + green
 + hashobj1.hexdigest()
 + reset +"\nSHA1   : " + blue
 + hashobj2.hexdigest()
